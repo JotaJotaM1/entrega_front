@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10% 0;
+  margin-bottom: 7rem;
+}
+
+.sectionOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  margin-bottom: 5rem;
+}
+
+.section-one-right {
+  width: 40%;
+}
+
+.section-one-left {
+  width: 50%;
+}
+
+.grafico {
+  width: 100%;
+}
+
+.Hambur {
+  display: none;
+}
+
+.Nav > a {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: rgb(242, 95, 58);
+  border: none;
+  cursor: pointer;
+}
+
+.containerTwo {
+  margin: 10%;
+  display: Flex;
+}
+.FatherTwo {
+  padding: 0;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextTwo {
+  margin-top: 70px;
+}
+
+h1 {
+  color: #232851;
+  font-size: 2.5rem;
+}
+
+.textBlockOne {
+  margin-right: 40px;
+}
+
+.ContainerThree {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FatherThree {
+  width: 40%;
+}
+
+.FatherNumbers {
+  width: 50%;
+}
+
+.TextThree {
+  margin-right: 30px;
+}
+
+.ContainerNumbers {
+  padding: 1rem;
+  display: flex;
+  color: #232851;
+}
+
+.Number {
+  padding: 0.6rem;
+  height: 0.8rem;
+  width: 6rem;
+  margin-right: 2rem;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(242, 95, 58);
+  color: white;
+  border-radius: 2rem;
+}
+
+h2 {
+  color: #232851;
+}
+
+.textNumbers {
+  color: #b3b2b7;
+}
+
+.SectionFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+
+.ContainerFour {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.TittleFour {
+  margin: 0 0 100px;
+  font-size: 35px;
+}
+
+.FatherFour {
+  margin: 3rem 0;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.FatherFour h3,
+.FatherFour p {
+  margin: 1rem 0;
+}
+
+.FaceCircle {
+  width: 70px;
+  position: absolute;
+  top: -35px;
+}
+
+.TextFour {
+  color: #b9b9c1;
+}
+
+.buttonFour {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 80px 0;
+}
+
+.SectionFive {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10%;
+  align-items: center;
+  background-color: rgb(242, 95, 58);
+}
+
+.buttonFive {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: rgb(242, 95, 58);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+}
+
+.FatherFive p {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.texSectionFive {
+  margin: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  background-color: black;
+}
+
+.ContainerSix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10%;
+}
+.Iconos {
+  margin: 0 0 30px 0;
+}
+.containerIconos {
+  margin: 20px;
+}
+.fatherSix {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.FooterNav li {
+  margin: 10px;
+  list-style: none;
+
+  color: white;
+}
+.FooterNav a {
+  text-decoration: none;
+}
+
+.FooterNav {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.Rights {
+  color: #8c8c94;
+  font-size: 10px;
+}
+
+.ButtonFooter {
+  margin: 0 0 40px 0;
+}
+
+.form {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: rgb(242, 95, 58);
+  font-weight: 700;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+}
+
+body {
+  background-image: url(../img/bg-tablet-pattern.svg),
+    url(../img/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+  .ButonHeader,
+  .Nav {
+    display: none;
+  }
+  .Hambur {
+    display: block;
+  }
+  .sectionOne {
+    flex-direction: column-reverse;
+  }
+
+  .section-one-right,
+  .section-one-left,
+  .FatherThree,
+  .FatherNumbers {
+    width: 100%;
+  }
+
+  .ContainerThree {
+    flex-direction: column;
+  }
+
+  .SectionFour,
+  .ContainerFour {
+    flex-direction: column;
+  }
+
+  .ContainerFour {
+    margin: 0 0 3rem 0;
+  }
+
+  .SectionFive {
+    flex-direction: column;
+  }
+
+  .ContainerSix {
+    flex-direction: column;
+  }
+
+  .FooterNav {
+    width: 100%;
+  }
+  .fatherSix {
+    display: block;
+  }
+
+  .texSectionFive {
+    margin: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .formulario {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .form {
+    margin: 2rem;
+  }
+}
